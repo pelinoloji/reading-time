@@ -1,0 +1,17 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+$blue: #c1c1c1;
+#title {
+  color: $blue;
+  text-align: center;
+}
+
+textarea {
+  height: 400px;
+}
+
+.btn-area {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 0px !important;
+}
