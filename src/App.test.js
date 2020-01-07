@@ -31,3 +31,5 @@ test("calculated result should return 1", () => {
   const h5 = getByTestId("result");
   expect(h5.innerHTML).toContain(readingTime);
 });
+
+//add a test for long text
